@@ -1,5 +1,5 @@
 
-% Metódy inžinierskej práce helo
+% Metódy inžinierskej práce
 
 \documentclass[10pt,twoside,english,a4paper]{article}
 
@@ -11,8 +11,8 @@
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 
-\usepackage{cite}
-%\usepackage{times}
+%\usepackage{cite}
+\usepackage{times}
 
 
 \pagestyle{plain}
@@ -39,7 +39,7 @@ Ing. Jozef Sitarčík}} % meno a priezvisko vyučujúceho na cvičeniach
 People have been trying to prove one method's superiority over the other in order to use the better method for teaching.
 Although in reality neither one is better than the other. Both methods should be used in e-learning , however
 in different ways  and in different scenarios. The main purpose of this article is to discuss  where and when to use asynchronous and
-synchronous e-learning methods to achieve efficient e-learning. It is based mainly on two studies, Stefan Hrastinski's study of "Asynchronous and Synchronous E-Learning"~\ref{source1}, and the other is Ayesha Perveen's study: "Synchronous and Asynchronous E-Language Learning:A Case Study of Virtual University of Pakistan"~\ref{source2}
+synchronous e-learning methods to achieve efficient e-learning. It is based mainly on two studies, Stefan Hrastinski's study of "Asynchronous and Synchronous E-Learning"~\cite{Hrastinski:E-learning}, and the other is Ayesha Perveen's study: "Synchronous and Asynchronous E-Language Learning:A Case Study of Virtual University of Pakistan"~\cite{Perveen:E-learning}
 The goal of this article is to show the pros and cons of the two learning methods, and when and how to use them.
 \end{abstract}
 
@@ -60,81 +60,111 @@ Finally, in the conclusion ads dw will be discussed~\ref{conc}
 
 
 
-\section{Synchronous E-learning} \label{sync}
+\section{E-learning methods} \label{sync}
 
-Z obr.~\ref{f:rozhod} je všetko jasné. 
-
-\begin{figure*}[tbh]
-\begin{center}
-    \includegraphics[scale=1.0]{diagram.pdf}
-%Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{center}
-
-
-List of applications for synchronous e-learning:
+In today's modern society online e-learning was made possible thanks to the technological advancements that society has gone through. E-learning is defined as learning and teaching online through network technologies. This advancement made studying and learning more accessible for the people. Which also made some researchers concerned about the learning outcomes for e-learners, though a review of 355 comparative studies revealed no significant difference between the traditional way of learning and e-learning.\ref{sync}.
+E-learning is only possible through different communication mediums, such as the following
+List of software applications:
 \begin{itemize}
-\item jedna vec
-\item druhá vec
+\item Skype
+\item Google Meet
+\item Zoom
+\item Webex
+\item Discord 
+\item Learning Management Systems(LMS):
 	\begin{itemize}
-	\item x
-	\item y
+	\item Moodle
+	\item Google Classroom
+	\item WizIQ
+	\item OpenEdX
+	\item Canvas
+	\item Edmodo
+	\item Prezi
 	\end{itemize}
 \end{itemize}
+Two basic types of e-learning methods that are commonly compared are synchronous and asynchronous e-learning.
+As e-learning become more significant, it has became an important question whether it is better to study  Synchronously or Asynchronously.
+That is what lead to the creation of important studies about these e-learning method, such as the study of Hrastinsky, and Ayesha Perveen.
 
+\subsection{Synchronous E-learning} \label{async}
+
+Synchronous e-learning is a time-bound interaction between the participants, like video calls, chat, face-to-face video calls, online class rooms etc...
+The main importance of synchronous e-learning is the fast interaction and communication between the participants, which makes the learning more social, and personal. Synchronous e-learning provides student-teacher and student-student interaction.
+Several case studies have shown that Synchronous e-learning can develop the sense of community in students on online communication platforms.
+
+
+\subsection{Asynchronous E-learning} \label{ina:nejake}
+Asynchronous E-learning is a form of education that it is not time-bound, meaning the participants can study whenever their time allows them, and they do not require to adapt to different schedules, such as meetings with teacher or students, or online classrooms. The most common communication mediums for asynchronous e-learning are the following:
+\begin{enumerate}
+\item E-mail
+\item Discussion boards
+\item Learning Management Systems
+	\begin{enumerate}
+	\item Which is the most common nowadays.
+	\end{enumerate}
+\end{enumerate}
+Even though asynchronous e-learning has been heavily criticized in the past, a great amount of people benefit a lot from asynchronous learning. Mostly because of its flexible feature, since each individual can create his own pace and time of studying, depending on his personal situation. Through asynchronous e-learning it is possible to download material and documents and study them
+
+\subsection{Types of communication} \label{ina:este}
+
+Haythornthwaite~\ref{cs} believes that for building and sustaining e-learning communities there are 3 types of communication that is important (See Figure 1):
+\begin{enumerate}
+\item Content-related -Communication related to the course learning is essential.
+\item Planning of tasks- When some kind of product has to be created by the students eg.:assignment.
+\item Social support - to create an atmosphere that fosters collaborative learning.
+\end{enumerate}
+
+
+\begin{figure*}[tb]
+\centering
+\includegraphics[scale=0.36]{MIPZadanie/3types.png}
+
+\caption{Stefan Hrastinski's table of communication types}
+\label{f:rozhod}
 \end{figure*}
 
 
 
-\section{Asynchronous E-learning} \label{async}
-
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-
-
-Ten istý zoznam, len číslovaný:
-
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
-
-
-\subsection{Types of commu} \label{ina:este}
-
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
-
-
 
 \section{Benefits and disadvantages of synchronous E-learning} \label{badose}
-
-
+The greatest benefit of synchronous e-learning is clearly the social aspect.
+People are social beings that is why they create communities through communication platforms too. Synchronous e-learning provides real-time interaction between participants, which creates a sense of community and strengthens collaborative learning. Synchronous e-learning sessions can result in high levels of motivation, and makes people longer engaged about the given topic or course. In Stefan Hrastinski's study it was shown that
+communicating synchronously motivated the participants and they shown increased engagement throughout the sessions.~\ref{cs}
+On the other hand one of the biggest disadvantage of synchronous e-learning is that quality learning is less likely to occur, since the participant has less time to think about the problem at hand. Since in synchronous e-learning socialization is more common, it seemed more acceptable to exchange social support and discuss less complex issues about the topic at hand.~\ref{cs} Another disadvantage is that the students have to be available at the given time, they have to adapt to the schedule. Good internet connection is also needed, since technical problems can make the students frustrated. 
 
 
 \section{Benefits and disadvantages of Asynchronous E-learning} \label{badoae}
+A major benefit of Asynchronous e-learning is its adaptability, students can study depending on their time. Contrary to synchronous e-learning, the content-relatedness in asynchronous communication was more than 90\% (see Figure 2.), thus proving that when it comes to asynchronous e-learning participants are more likely to talk about the topic at hand, rather than having off topic discussions such as exchange of social support.
+Also in asynchronous discussion the number of complex questions were bigger.
+Studies shown that when students use asynchronous e-learning they spend more time studying the particular topic, since they are not time-bound to give an answer. 
+The main disadvantage of asynchronous e-learning is the lack of social motivation. Humans are more likely and more motivated to study in a social scenario. Which means in asynchronous e-learning the individual has to motivate himself, since there are no external social factors that would motivate the individual. Also another problem is that the individual student is likely to not get questions about the topic answered fast, unlike in synchronous e-learning.
 
-\section{Efficiency of the Combination of Asynchronous and Synchronous E-learning } \label{comb}
+\begin{figure*}[tbh]
+\centering
+\includegraphics[scale=0.36]{MIPZadanie/Sentences_categorized_by_Type_of_communication_and_eLearning.png}
 
+\caption{Stefan Hrastinski's study outcome}
+\label{f:rozhod}
+\end{figure*}
+\section{Efficiency of the Combination of Asynchronous and Synchronous E-learning }\label{comb} 
+As research shown, both Synchronous and Asynchronous methods have benefits and disadvantages.To create an effective and efficient e-learning method , Hybrid e-learning was created , which is the combination of Asynchronous and Synchronous e-learning.
+In hybrid e-learning both methods are used but each in different scenarios. Stefan Hrastinski created the 3 question to know when,why,how to use the which method to achieve effective e-learning.(see Figure 3)
+\begin{figure*}[tbh]
+\centering
+\includegraphics[scale=0.36]{MIPZadanie/When_why_and_how.png}
+
+\caption{Stefan Hrastinski's table of When,Why and How}
+\label{f:rozhod}
+\end{figure*}
+
+As the table  shows, when students have to discuss complex issues, that require more time to think or if the participants cannot attend a meeting or conference call, the asynchronous methods should be used, which can be achieved through discussion boards, or email. On the other hand, if less complex issues have to be discussed,planning or getting acquinted with other people is the goal,then  synchronous methods should be used.
 
 \section{Conclusion} \label{conc} % prípadne iný variant názvu
+In conclusion, as also shown by the research of Hrastinski and Perveen, to make e-learning effective both Synchronous and Asynchcronous methods should be utilized. In this case the teachers have an important role in making e-learning effective, since they have to know when it is effective to use synchronoud or asynchronous methods and plan accordingly.
+The best way to use both of these is through Learning Management Systems which are created especially for e-learning.
 
 
-
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
-
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
-\bibliographystyle{alpha} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{is-alpha} % prípadne alpha, abbrv alebo hociktorý iný
 \end{document}
+
